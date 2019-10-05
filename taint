@@ -1,0 +1,5 @@
++ '[' '!' -f /opt/katacoda-finished ']'
++ echo Starting
++ /opt/launch-kubeadm.sh
+rm: cannot remove '/root/.kube/config': No such file or directory
+W1005 10:10:28.044312   11313 reset.go:234] [reset] No kubeadm config, using etcd pod spec to get data directory
